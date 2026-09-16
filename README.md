@@ -1,6 +1,6 @@
 ﻿# bpatches
 
-Lightweight 32-bit (x86) custom patch updater DLL and toolchain for World of Warcraft 3.3.5a (WotLK), integrated directly with GitHub Releases.
+Lightweight 32-bit (x86) custom patch updater DLL for Balance WoW, integrated directly with GitHub Releases.
 
 ## Overview
 
@@ -12,7 +12,7 @@ If any patch is missing or outdated, it displays a native progress dialog, downl
 - **GitHub Releases Integration**: Directly uses the GitHub Releases section of [`11011010/bpatches`](https://github.com/11011010/bpatches).
 - **Intelligent Routing**:
   - General patches (e.g. `patch-5.mpq`, `patch-W.mpq`) are placed into `Data/`.
-  - Locale patches (e.g. `patch-deDE-4.mpq`, `patch-deDEc.mpq`) are placed into `Data/deDE/` (or matching locale folder).
+  - Locale patches (e.g. `patch-enUS-4.mpq`, `patch-enUSc.mpq`) are placed into `Data/enUS/` (or matching locale folder).
 - **Zero Heavy Dependencies**: Built with native Win32/WinINet and static MSVC runtime (`/MT`). No extra runtimes needed.
 - **Fail-Safe Startup**: If offline or GitHub is unreachable, it logs a warning and lets the game continue launching without freezing or crashing.
 - **Progress Dialog**: Smooth native Windows progress bar showing download percentage and speed/size.
