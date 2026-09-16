@@ -1,0 +1,8 @@
+﻿LIBRARY bpatches
+EXPORTS
+    InitPatches
+    CheckPatches
+    DivxDecode
+    InitializeDivxDecoder
+    SetOutputFormat
+    UnInitializeDivxDecoder

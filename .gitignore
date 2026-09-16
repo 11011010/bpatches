@@ -1,0 +1,9 @@
+﻿build/
+*.obj
+*.lib
+*.exp
+*.log
+*.tmp
+.vs/
+manifest.json
+test_net*
